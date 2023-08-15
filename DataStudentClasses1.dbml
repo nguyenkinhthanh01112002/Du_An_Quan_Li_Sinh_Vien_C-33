@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="FPOLY_STUDENT_DATA" Class="DataStudentClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=NGUYENKINHTHANH\SQLEXPRESS;Initial Catalog=FPOLY_STUDENT_DATA;Integrated Security=True" SettingsObjectName="QuanLiSinhVienFpoly.Properties.Settings" SettingsPropertyName="FPOLY_STUDENT_DATAConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.USERS" Member="USERs">
+    <Type Name="USER">
+      <Column Name="username" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="password" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="role" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.STUDENTS" Member="STUDENTs">
+    <Type Name="STUDENT">
+      <Column Name="MaSV" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="HoTen" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Email" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="SoDT" Type="System.String" DbType="VarChar(15) NOT NULL" CanBeNull="false" />
+      <Column Name="GioiTinh" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="DiaChi" Type="System.String" DbType="NVarChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="Hinh" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="STUDENT_GRADE" Member="GRADEs" ThisKey="MaSV" OtherKey="MASV" Type="GRADE" />
+    </Type>
+  </Table>
+  <Table Name="dbo.GRADE" Member="GRADEs">
+    <Type Name="GRADE">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="MASV" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="TiengAnh" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="TinHoc" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="GDTC" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Association Name="STUDENT_GRADE" Member="STUDENT" ThisKey="MASV" OtherKey="MaSV" Type="STUDENT" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

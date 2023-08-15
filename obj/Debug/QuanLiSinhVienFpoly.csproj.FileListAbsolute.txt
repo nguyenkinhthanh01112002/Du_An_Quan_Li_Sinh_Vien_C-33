@@ -1,0 +1,14 @@
+E:\C#3\Assignment\AssignmentC#3\QuanLiSinhVienFpoly\bin\Debug\QuanLiSinhVienFpoly.exe.config
+E:\C#3\Assignment\AssignmentC#3\QuanLiSinhVienFpoly\bin\Debug\QuanLiSinhVienFpoly.exe
+E:\C#3\Assignment\AssignmentC#3\QuanLiSinhVienFpoly\bin\Debug\QuanLiSinhVienFpoly.pdb
+E:\C#3\Assignment\AssignmentC#3\QuanLiSinhVienFpoly\obj\Debug\QuanLiSinhVienFpoly.csproj.AssemblyReference.cache
+E:\C#3\Assignment\AssignmentC#3\QuanLiSinhVienFpoly\obj\Debug\QuanLiSinhVienFpoly.csproj.SuggestedBindingRedirects.cache
+E:\C#3\Assignment\AssignmentC#3\QuanLiSinhVienFpoly\obj\Debug\QuanLiSinhVienFpoly.frmLogin.resources
+E:\C#3\Assignment\AssignmentC#3\QuanLiSinhVienFpoly\obj\Debug\QuanLiSinhVienFpoly.Properties.Resources.resources
+E:\C#3\Assignment\AssignmentC#3\QuanLiSinhVienFpoly\obj\Debug\QuanLiSinhVienFpoly.csproj.GenerateResource.cache
+E:\C#3\Assignment\AssignmentC#3\QuanLiSinhVienFpoly\obj\Debug\QuanLiSinhVienFpoly.csproj.CoreCompileInputs.cache
+E:\C#3\Assignment\AssignmentC#3\QuanLiSinhVienFpoly\obj\Debug\QuanLiSinhVienFpoly.exe
+E:\C#3\Assignment\AssignmentC#3\QuanLiSinhVienFpoly\obj\Debug\QuanLiSinhVienFpoly.pdb
+E:\C#3\Assignment\AssignmentC#3\QuanLiSinhVienFpoly\obj\Debug\QuanLiSinhVienFpoly.frmQuanLiSinhVien.resources
+E:\C#3\Assignment\AssignmentC#3\QuanLiSinhVienFpoly\obj\Debug\QuanLiSinhVienFpoly.Form3.resources
+E:\C#3\Assignment\AssignmentC#3\QuanLiSinhVienFpoly\obj\Debug\QuanLiSinhVienFpoly.frmSigUp.resources

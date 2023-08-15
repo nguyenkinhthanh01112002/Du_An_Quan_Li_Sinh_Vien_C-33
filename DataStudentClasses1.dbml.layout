@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="DataStudentClasses1">
+  <DataContextMoniker Name="/DataStudentClasses1DataContext" />
+  <nestedChildShapes>
+    <classShape Id="1a40f60d-1ad5-4de0-9a1f-95def7cb1baf" absoluteBounds="4, 1.125, 2, 1.3862939453125">
+      <DataClassMoniker Name="/DataStudentClasses1DataContext/USER" />
+      <nestedChildShapes>
+        <elementListCompartment Id="12352927-0885-4ece-9626-a696cc27e2ba" absoluteBounds="4.015, 1.585, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="824eef55-aa22-4ba2-99ad-3d35e8c96b30" absoluteBounds="3.5, 3.375, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/DataStudentClasses1DataContext/STUDENT" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6ed74fa2-0330-4d9b-b6de-6c6c9c59b243" absoluteBounds="3.515, 3.835, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ec844af9-8b9a-429a-858b-ce3fbe8cd32d" absoluteBounds="0.75, 3.375, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/DataStudentClasses1DataContext/GRADE" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2001b19c-05ae-43f8-b1b2-df558a37081c" absoluteBounds="0.76500000000000012, 3.835, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(3.5 : 4.26044840494792); (2.75 : 4.26044840494792)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataStudentClasses1DataContext/STUDENT/STUDENT_GRADE" />
+      <nodes>
+        <classShapeMoniker Id="824eef55-aa22-4ba2-99ad-3d35e8c96b30" />
+        <classShapeMoniker Id="ec844af9-8b9a-429a-858b-ce3fbe8cd32d" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
